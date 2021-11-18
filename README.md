@@ -22,7 +22,7 @@ E clique em usar no chrome, em seguida adicionar extensão. A extensão será fi
 
 Realize o clone do projeto: 
 
- $ git clone git@github.com:julianarsantos/teste.git
+ $ git@github.com:julianarsantos/desafioInema.git
 
 **3 - Execução do projeto**
 

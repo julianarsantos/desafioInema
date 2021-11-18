@@ -908,7 +908,7 @@
       "id": "b3a6669a-0509-4465-90b5-744cc56685f2",
       "comment": "",
       "command": "mouseOver",
-      "target": "css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-67 .avia-menu-text",
       "targets": [
         ["css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text", "css:finder"],
         ["xpath=(//li[@id='menu-item-106']/a/span[2])[2]", "xpath:idRelative"],

@@ -1,0 +1,974 @@
+{
+  "id": "38b46cf6-4e05-43ce-aff2-29af2292fb3d",
+  "version": "2.0",
+  "name": "Desafio",
+  "url": "http://www.zoo.ba.gov.br",
+  "tests": [{
+    "id": "d945a007-eb38-436a-b6b5-d09b3dbd809d",
+    "name": "Desafio",
+    "commands": [{
+      "id": "959f0410-16ee-473e-80b2-093ebd923c7c",
+      "comment": "Iniciando a aplicação",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a415833d-6606-47b2-87fc-9b7ca2609f8b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02c13e8d-cc1b-4021-84b4-0b437eda46bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1346x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81535799-6592-48ef-86d7-073d247c57ce",
+      "comment": "Iniciando a verificação do Menu",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63f4890c-057f-4249-89e1-9a8e495586e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-99 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-99 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-99']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/o-zoo/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a270e800-f8d2-4582-8f65-a83480fa9032",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-99 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-99 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-99']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": "O ZOO"
+    }, {
+      "id": "1cd7600d-332d-4a84-8e29-b67d9eca0c6c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a80ac4-57fb-44f4-a106-c908ad3874d5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 > a > .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a > .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "CONHEÇA"
+    }, {
+      "id": "3bcaaf40-62a5-4235-ab58-9e5514819948",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-121 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-121']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/zoo-em-numeros/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5ec87b-1d52-4c5e-ba50-283152ae4bec",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-121 > a > .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 > a > .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-121']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": "ZOO EM NÚMEROS"
+    }, {
+      "id": "297e0863-4faa-49b7-bb2c-d1771c119b4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-92 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-92']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/fique-ligado/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "713eae6c-f6d7-410d-8b1a-4054bc13dece",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-92 > a > .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 > a > .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-92']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": "FIQUE LIGADO"
+    }, {
+      "id": "c9333509-354e-4347-a49a-3b121953b5c5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-81']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/atividades/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4df1ba4-e66d-47f7-af54-96ec3a615fb9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 > a > .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 > a > .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-81']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": "ATIVIDADES"
+    }, {
+      "id": "5ddd7d27-7c50-474c-a149-40880073afe5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-93 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-93 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-93']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/galeria/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5e7f690-4dda-4cf0-945c-dae434b79a57",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-93 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-93 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-93']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/galeria/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "GALERIA"
+    }, {
+      "id": "86eb3c81-d5f0-483f-9e7b-359f9af08742",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-97 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-97 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-97']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/noticias/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a585257-b03a-4bb2-951b-e8478d1c000b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-97 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-97 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-97']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[7]/a/span[2]", "xpath:position"]
+      ],
+      "value": "NOTÍCIAS"
+    }, {
+      "id": "03570d41-da4e-443d-a06b-1a26a70febe8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-90 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-90 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-90']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/fale-conosco/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6bdfc9-c17d-4cdd-9ad4-8f0e0e3bc5f6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-90 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-90 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-90']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[8]/a/span[2]", "xpath:position"]
+      ],
+      "value": "FALE CONOSCO"
+    }, {
+      "id": "8a8f5a6a-a4f5-4996-8a43-9756ecffd216",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-search > a",
+      "targets": [
+        ["css=#menu-item-search > a", "css:finder"],
+        ["xpath=//li[@id='menu-item-search']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?s=')]", "xpath:href"],
+        ["xpath=//div/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6230bce7-5f8a-4276-a2ee-4eabacc32f82",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#menu-item-search > a",
+      "targets": [
+        ["css=#menu-item-search > a", "css:finder"],
+        ["xpath=//li[@id='menu-item-search']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?s=')]", "xpath:href"],
+        ["xpath=//div/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae1afbe3-f39f-4ece-9f09-e88551b0e68d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9e628d-ae86-4642-81b9-30571dd7558a",
+      "comment": "Iniciando a validação do SUBMENU CONHEÇA",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "498125c5-173a-4eaa-9803-48d8c410eda4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-2161 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-2161 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-2161']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36c6e40d-529f-4027-a1cc-d8eef1688f6c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e34eab53-5711-473b-9d56-3213adc809b6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-2161 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-2161 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-2161']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": "Como chegar no Zoo?"
+    }, {
+      "id": "d167d586-317e-4609-a99e-d692266e29ca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31953f04-bdd8-46c1-ba48-0feb0cce6bf0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-325 > a > .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-325 > a > .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-325']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "275fd47d-cd9a-4d78-a3d5-efeb9c222963",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Fauna",
+      "targets": [
+        ["linkText=Fauna", "linkText"],
+        ["css=#avia-menu > #menu-item-324 #menu-item-325 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-325']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/fauna/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Fauna"
+    }, {
+      "id": "a2ce3ce7-28ab-4a1e-a881-9ba406025d8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91662d55-951c-4021-ac77-cb5ea948f541",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-124 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-124 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-124']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38933bfa-7556-4c8b-9ed8-23a43006f593",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-124 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-124 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-124']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Flora"
+    }, {
+      "id": "a40e6a8d-c846-4b4e-a5e2-3dc253654a20",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a236434d-4d44-44ea-84da-0842493de7c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-132 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-132 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-132']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "102fc8f0-17ea-47ea-a856-144d708b2eb4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-132 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-132 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-132']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Pesquisa e conservação"
+    }, {
+      "id": "f97eb056-9d76-4715-a222-4b96fc2344f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02e96c5e-ec04-4053-8ecd-585f9b073b35",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-128 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-128 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-128']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ad214c-601e-4e53-a989-e53a9dcffcba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-128 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-128 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-128']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Clínica e Quarentena"
+    }, {
+      "id": "650697f2-069e-46b9-af7d-5e297827875f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eede0a0f-d3dc-48b5-b465-0a807e93dd85",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-131 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-131 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-131']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c09048e4-7f1a-4944-b22a-70770b0b7dda",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2272bed-e522-422b-8934-cd2a3ecfe061",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Nutrição animal",
+      "targets": [
+        ["linkText=Nutrição animal", "linkText"],
+        ["css=#avia-menu > #menu-item-324 #menu-item-131 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-131']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/nutricao-animal/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaff728c-a662-4cba-ba6e-71595047afca",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-131 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-131 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-131']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Nutrição animal"
+    }, {
+      "id": "2392a1fd-2583-4237-8819-0821b8c2f8fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "002c18b9-6af6-4c47-b278-779aa1029f70",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Horto do Zoo",
+      "targets": [
+        ["linkText=Horto do Zoo", "linkText"],
+        ["css=#avia-menu > #menu-item-324 #menu-item-94 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-94']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/horto-do-zoo/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b036701a-f9b8-4409-b897-4b0c5a383ddb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-94 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-94 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-94']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[7]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Horto do Zoo"
+    }, {
+      "id": "8a057ded-8b52-465c-989e-a829ad8aa924",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407c2466-e300-4688-8326-0914119e6a04",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-127 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-127 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-127']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[8]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19332b83-f840-48cd-a68a-910070735a00",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-127 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-127 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-127']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[8]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Biblioteca"
+    }, {
+      "id": "90edb0b3-e3ca-4bcc-9cc1-66ee77d00afb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-324']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3b93d96-7164-45fe-a7fd-f386b60b7afd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-324 #menu-item-130 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-324 #menu-item-130 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-130']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[9]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "574d9d82-f087-4162-a323-790055750466",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Museu",
+      "targets": [
+        ["linkText=Museu", "linkText"],
+        ["css=#avia-menu > #menu-item-324 #menu-item-130 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-130']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/conheca/museu/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": "Museu"
+    }, {
+      "id": "84c364db-6808-47af-92d1-aa4f8bb8f297",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-121 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-121']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/zoo-em-numeros/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47670145-bac0-4606-a8ef-d3e27eb7a868",
+      "comment": "Validação do SUBMENU ZOO EM NÚMEROS",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1717328-8a00-4183-8775-49446214bcc8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-121 #menu-item-123 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 #menu-item-123 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-123']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[3]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "159be82f-6e48-43eb-a461-4120b56096c5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-121 #menu-item-123 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 #menu-item-123 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-123']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[3]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": "Censo dos Animais"
+    }, {
+      "id": "f18e262b-fa5a-4cc9-8e34-3d014d834af6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-121 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-121']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/zoo-em-numeros/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29866c6e-7db2-4a61-8266-b744c6434ffe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-121 #menu-item-1083 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 #menu-item-1083 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-1083']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[3]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7712e914-e550-46b9-bcc6-b8d44ab29409",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-121 #menu-item-1083 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 #menu-item-1083 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-1083']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[3]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Censo da Flora"
+    }, {
+      "id": "485b8117-64af-4546-a0d7-b7d359022ffa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Quantidade de alimentos",
+      "targets": [
+        ["linkText=Quantidade de alimentos", "linkText"],
+        ["css=#avia-menu > #menu-item-121 #menu-item-126 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-126']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/zoo-em-numeros/quantidade-de-alimentos/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd46244-b8ca-4f66-9ffe-a0ca6c9b7475",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-121 #menu-item-126 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-121 #menu-item-126 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-126']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[3]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Quantidade de alimentos"
+    }, {
+      "id": "e40debac-d79b-46c8-a701-7be042ec3c91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-92 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-92']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/fique-ligado/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a41f320-8110-42b2-8437-3efcd213399b",
+      "comment": "Validação SUBMENU FIQUE LIGADO",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d56e6ff-b181-4941-b66c-8a7c01931de2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-92 #menu-item-523 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 #menu-item-523 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-523']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48328148-76d2-4a7e-8651-50290182ac77",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-92 #menu-item-523 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 #menu-item-523 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-523']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": "Projetos"
+    }, {
+      "id": "21702287-ce5a-4d07-8033-753f77236c22",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-92 #menu-item-393 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 #menu-item-393 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-393']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4deeb265-13db-4bbb-9b8a-5a9a4b7c6a17",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-92 #menu-item-393 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-92 #menu-item-393 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-393']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Cursos e Treinamentos"
+    }, {
+      "id": "89da344e-591d-4f25-aa67-d20892416d04",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-81']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/atividades/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acf268d7-5c14-406b-a34d-b89e7ccda13d",
+      "comment": "Validação SUBMENU ATIVIDADES",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "314a6c8c-d5e7-4143-875f-b1b5823169ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-115 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-115 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-115']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12e52bd5-3386-4117-b911-93855372d4a1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-115 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-115 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-115']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": "Zoo Noturno"
+    }, {
+      "id": "b169c159-3b3c-4472-a0ab-272e47cf9364",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-81']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/atividades/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c7962b-b776-4f09-a856-5ae5e1bfc3c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-70 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-70 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-70']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97633986-eeba-41d5-9578-6a3853f86ad2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-70 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-70 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-70']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Aprendendo no Zoo"
+    }, {
+      "id": "4478c122-0f6b-411d-bbb9-7790e1188f91",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-919 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-919 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-919']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d93cd981-b58b-4732-ba11-1e21af674278",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-919 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-919 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-919']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Zoo Vai à Escola"
+    }, {
+      "id": "34f2cbb1-2315-4f28-b626-551677eb96d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-81']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/atividades/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "365c1d02-6c03-40d9-9632-2616705868f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-106']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7d3c24-ad3d-4357-a25c-e32c2e5f3b76",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-106']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Zoo Especial"
+    }, {
+      "id": "b964ad3f-8db7-4f47-9068-0dbb8e68d80a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 > a",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 > a", "css:finder"],
+        ["xpath=(//li[@id='menu-item-81']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.zoo.ba.gov.br/atividades/'])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3a6669a-0509-4465-90b5-744cc56685f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-106 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-106']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3004e804-df4a-4cca-9ae8-b95347acd6ff",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-67 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-67 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-67']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Zoo em Família"
+    }, {
+      "id": "a5d5f1f2-f43b-4d81-a900-69bf5d455cdb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-107 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-107 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-107']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91eec5a6-0d36-4721-b02b-108bc0454076",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#avia-menu > #menu-item-81 #menu-item-107 .avia-menu-text",
+      "targets": [
+        ["css=#avia-menu > #menu-item-81 #menu-item-107 .avia-menu-text", "css:finder"],
+        ["xpath=(//li[@id='menu-item-107']/a/span[2])[2]", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[5]/ul/li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": "Zoo Terapia"
+    }, {
+      "id": "edb56c7f-2dbe-48a5-b309-cf4fa22ba04f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stretch_full",
+      "targets": [
+        ["css=.stretch_full", "css:finder"],
+        ["xpath=//div[@id='main']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ab19df0d-e9ed-4cbb-9e21-3060f818f4e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d945a007-eb38-436a-b6b5-d09b3dbd809d"]
+  }],
+  "urls": ["http://www.zoo.ba.gov.br/"],
+  "plugins": []
+}
